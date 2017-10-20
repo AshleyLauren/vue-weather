@@ -5,10 +5,12 @@
   "author": "Ashley <grigsby.ashley@gmail.com>",
   "private": true,
   "scripts": {
+    "start": "node index.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "express": "^4.16.2",
     "vue": "^2.4.4"
   },
   "devDependencies": {
